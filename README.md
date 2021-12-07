@@ -4,7 +4,7 @@
 
 Dx29 TermSearch
 ==============================================================================================================================================
-# Overview
+### Overview
 
 This project allows the symptoms and disease searches to be carried out, in different languages (EN and ES).
 
@@ -24,9 +24,9 @@ It is programmed in Python, and the structure of the project is as follows:
 
 <p>&nbsp;</p>
 
-# Getting Started
+### Getting Started
 
-####  Configuration: Pre-requisites
+####  1. Configuration: Pre-requisites
 
 This is a Python project, therefore it will be necessary to have a valid [programming environment](https://packaging.python.org/en/latest/tutorials/installing-packages/#) installed to work with this project.
 
@@ -36,7 +36,7 @@ This project doesn't use external services, so it is not neccessary to configure
 
 <p>&nbsp;</p>
 
-####  Download and installation
+####  2. Download and installation
 
 Download the repository code with `git clone` or use download button.
 
@@ -45,13 +45,13 @@ Having a Python](https://www.python.org/downloads/) environment installed, insta
 
 <p>&nbsp;</p>
 
-####  Latest releases
+####  3. Latest releases
 
 The latest release of the project deployed in the [Dx29 application](https://dx29.ai/) is: v0.15.00.
 
 <p>&nbsp;</p>
 
-#### API references
+#### 4. API references
 
 **Search symptoms**:
 >- GET request
@@ -73,9 +73,9 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 <p>&nbsp;</p>
 
-# Build and Test
+### Build and Test
 
-#### Build
+#### 1. Build
 
 On the one hand, the setup.py file is the local build script for this project: ``` python setup.py ```
 
@@ -98,7 +98,7 @@ The first step is to run docker image build. We pass in . as the only argument t
 
 <p>&nbsp;</p>
 
-#### Deployment
+#### 2. Deployment
 
 To work locally, it is only necessary to install the project and build it. 
 
@@ -118,14 +118,14 @@ Note that this service is configured as "ClusterIP" since it is not exposed exte
 
 <p>&nbsp;</p>
 
-####  Testing
+####  3. Testing
 
 The Sample folder contains an example of a C# project that uses the symptom search project.
 In it, you can see how the project is used and the tests that have been carried out on it.
 
 <p>&nbsp;</p>
 
-# Contribute
+### Contribute
 
 Please refer to each project's style and contribution guidelines for submitting patches and additions. The project uses [gitflow workflow](https://nvie.com/posts/a-successful-git-branching-model/). 
 According to this it has implemented a branch-based system to work with three different environments. Thus, there are two permanent branches in the project:
