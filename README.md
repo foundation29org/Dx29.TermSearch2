@@ -4,7 +4,7 @@
 
 Dx29 TermSearch
 ==============================================================================================================================================
-### Overview
+### **Overview**
 
 This project allows the symptoms and disease searches to be carried out, in different languages (EN and ES).
 
@@ -24,7 +24,7 @@ It is programmed in Python, and the structure of the project is as follows:
 
 <p>&nbsp;</p>
 
-### Getting Started
+### **Getting Started**
 
 ####  1. Configuration: Pre-requisites
 
@@ -73,7 +73,7 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 <p>&nbsp;</p>
 
-### Build and Test
+### **Build and Test**
 
 #### 1. Build
 
@@ -125,7 +125,7 @@ In it, you can see how the project is used and the tests that have been carried 
 
 <p>&nbsp;</p>
 
-### Contribute
+### **Contribute**
 
 Please refer to each project's style and contribution guidelines for submitting patches and additions. The project uses [gitflow workflow](https://nvie.com/posts/a-successful-git-branching-model/). 
 According to this it has implemented a branch-based system to work with three different environments. Thus, there are two permanent branches in the project:
