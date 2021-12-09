@@ -115,7 +115,7 @@ Note that this service is configured as "ClusterIP" since it is not exposed exte
 >- The first, as realised in the Dx29 project an API is exposed that communicates to third parties with the microservice functionality.
 >- The second option is to directly expose this microservice as a LoadBalancer and configure a public IP address and DNS.
 
->>- **Interesting link**: [Deploy a Docker container app to Azure Kubernetes Service](https://docs.microsoft.com/en-GB/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&tabs=java)
+**Interesting link**: [Deploy a Docker container app to Azure Kubernetes Service](https://docs.microsoft.com/en-GB/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&tabs=java)
 
 <p>&nbsp;</p>
 
