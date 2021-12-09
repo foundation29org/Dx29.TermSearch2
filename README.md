@@ -40,7 +40,8 @@ This project doesn't use external services, so it is not neccessary to configure
 
 Download the repository code with `git clone` or use download button.
 
-Having a Python](https://www.python.org/downloads/) environment installed, installs the requirements.txt packages with [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line):
+Having a [Python](https://www.python.org/downloads/) environment installed, installs the requirements.txt packages with [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line):
+
 ``` pip install -r requirements.txt ```
 
 <p>&nbsp;</p>
