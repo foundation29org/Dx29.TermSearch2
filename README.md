@@ -13,10 +13,10 @@ It is used in the [Dx29 application](https://dx29.ai/) and therefore how to inte
 
 It is programmed in Python, and the structure of the project is as follows:
 
->- src folder: This is made up of two folders: Sample, which contains an example project of how to use the project and Dx29.TermSearch2, which contains the source code of the project. The latter contains: 
->>- app.py file: Is the main file, that access the aforementioned methods.
+>- src folder: This is made up of one folder: Dx29.TermSearch2, which contains the source code of the project: 
+>>- app.py file: Is the main file, that access the methods.
 >>- WebAPI folder: With the files to expose the method funcionality.
->>- Lib folder: with the files to tah contains the logic to perform the relevant operations.
+>>- Lib folder: with the files that contains the logic to perform the relevant operations.
 >>- Deployment folder: with example files to perform the deployment tasks.
 >>- requirements.txt and setup.py for perform the build tasks.
 >- .gitignore file
