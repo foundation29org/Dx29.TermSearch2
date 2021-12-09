@@ -13,10 +13,10 @@ It is used in the [Dx29 application](https://dx29.ai/) and therefore how to inte
 
 It is programmed in Python, and the structure of the project is as follows:
 
->- src folder: This is made up of two folders: Sample, which contains an example project of how to use the project and Dx29.TermSearch2, which contains the source code of the project. The latter contains: 
->>- app.py file: Is the main file, that access the aforementioned methods.
+>- src folder: This is made up of one folder: Dx29.TermSearch2, which contains the source code of the project: 
+>>- app.py file: Is the main file, that access the methods.
 >>- WebAPI folder: With the files to expose the method funcionality.
->>- Lib folder: with the files to tah contains the logic to perform the relevant operations.
+>>- Lib folder: with the files that contains the logic to perform the relevant operations.
 >>- Deployment folder: with example files to perform the deployment tasks.
 >>- requirements.txt and setup.py for perform the build tasks.
 >- .gitignore file
@@ -40,7 +40,8 @@ This project doesn't use external services, so it is not neccessary to configure
 
 Download the repository code with `git clone` or use download button.
 
-Having a Python](https://www.python.org/downloads/) environment installed, installs the requirements.txt packages with [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line):
+Having a [Python](https://www.python.org/downloads/) environment installed, installs the requirements.txt packages with [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line):
+
 ``` pip install -r requirements.txt ```
 
 <p>&nbsp;</p>
@@ -114,7 +115,7 @@ Note that this service is configured as "ClusterIP" since it is not exposed exte
 >- The first, as realised in the Dx29 project an API is exposed that communicates to third parties with the microservice functionality.
 >- The second option is to directly expose this microservice as a LoadBalancer and configure a public IP address and DNS.
 
->>- **Interesting link**: [Deploy a Docker container app to Azure Kubernetes Service](https://docs.microsoft.com/en-GB/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&tabs=java)
+**Interesting link**: [Deploy a Docker container app to Azure Kubernetes Service](https://docs.microsoft.com/en-GB/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&tabs=java)
 
 <p>&nbsp;</p>
 
