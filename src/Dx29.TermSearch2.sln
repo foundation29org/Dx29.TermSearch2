@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Dx29.TermSearch2", "Dx29.TermSearch2\Dx29.TermSearch2.pyproj", "{A7469904-F17A-40FA-80B2-08BE7210E284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7469904-F17A-40FA-80B2-08BE7210E284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7469904-F17A-40FA-80B2-08BE7210E284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E070CEA0-7C4E-4CCE-8072-79D4935250B3}
+	EndGlobalSection
+EndGlobal
