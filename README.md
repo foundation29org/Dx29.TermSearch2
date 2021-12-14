@@ -32,7 +32,11 @@ This is a Python project, therefore it will be necessary to have a valid [progra
 
 In the code file "requirements.txt" are defined all the libraries that we must have [pre-installed](https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-files) for the execution of this project.
 
-This project doesn't use external services, so it is not neccessary to configure any secret key for running it.
+This project use Python projects:
+>- [Sentence-transformers](https://www.sbert.net/)
+>- [huggingface](https://github.com/huggingface/transformers) 
+
+It doesn't need any secret value.
 
 <p>&nbsp;</p>
 
