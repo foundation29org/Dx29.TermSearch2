@@ -4,6 +4,8 @@
 
 Dx29 TermSearch
 ==============================================================================================================================================
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 ### **Overview**
 
 This project allows the symptoms and disease searches to be carried out, in different languages (EN and ES).
